@@ -1,5 +1,5 @@
 {
-  "name": "moo-and-moo",
+  "name": "Agency-Landing-Page",
   "version": "1.0.0",
   "description": "Test task",
   "main": "gulpfile.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aleksej977/moo-and-moo.git"
+    "url": "git+https://github.com/Aleksej977/Agency-Landing-Page"
   },
-  "author": "Oleksii",
+  "author": "Oleksii Stoliar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aleksej977/moo-and-moo/issues"
+    "url": "https://github.com/Aleksej977/Agency-Landing-Page/issues"
   },
-  "homepage": "https://github.com/Aleksej977/moo-and-moo#readme",
+  "homepage": "https://github.com/Aleksej977/Agency-Landing-Page#readme",
   "devDependencies": {
     "browser-sync": "^2.23.3",
     "gulp": "^3.9.1",
