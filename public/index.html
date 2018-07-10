@@ -17,19 +17,207 @@
     <title>Agency Landing Page</title>
     <meta name="application-name" content="App Name">
     <meta name="apple-mobile-web-app-title" content="App Name">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
     <link href="./css/app.css" type="text/css" rel="stylesheet">
 </head>
 
-<body class="osp-app">
+<body class="alp-app">
     <!-- APPLICATION -->
-    <header class="osp-hero">
-
+    <header class="alp-hero">
+        <nav class="nav">
+            <div class="toggle">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <ul class="nav-bar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="alp-head">
+            <div class="alp-head__info">
+                <h1>our strong 
+organaisation</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</p>
+           <button>Contact Us</button>
+            </div>
+            <div class="alp-head__video">
+                <img src="img/min/video.png">
+            </div>
+        </div>
     </header>
+    <section>
+        <div class="alp-section">
+            <div class="alp-section__provide">
+                <h1>do you know we can 
+provide for you ?</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
+           <button>Learn More</button>
+            </div>
+            <div class="alp-section__services">
+                <div class="alp-section__services-items">
+                    <div class="item">
+                        <img src="img/min/manag.png">
+                        <h1>Management</h1>
+                        <p>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/min/pen.png">
+                        <h1>UI /UX Design</h1>
+                        <p>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor sit</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/min/logo.png">
+                        <h1>Logo / Branding</h1>
+                        <p>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioeew idolor sit amet,</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/min/car.png".>
+                        <h1>Animation</h1>
+                        <p>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor sit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="alp-gallery">
+        <div class="alp-gallery__title">
+            <h1>feature products</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
+            <h2></h2>
+        </div>
+        <div class="container">
+
+		<ul id="filters" class="clearfix">
+			<li><span class="filter" data-filter=".app">ALL</span></li>
+			<li><span class="filter active" data-filter=".print">print template</span></li>
+			<li><span class="filter" data-filter=".web">web template</span></li>
+			<li><span class="filter" data-filter=".user">user interface</span></li>
+			<li><span class="filter" data-filter=".mock">mock-up</span></li>
+		</ul>
+
+		<div id="portfoliolist">
+			
+			<div class="portfolio print user app" data-cat="logo">
+				<div class="portfolio-wrapper">				
+					<img src="img/min/product.png" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Bird Document</a>
+							<span class="text-category">Logo</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>				
+
+			<div class="portfolio print user app" data-cat="app">
+				<div class="portfolio-wrapper">			
+					<img src="img/min/product.png" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Visual Infography</a>
+							<span class="text-category">APP</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>		
+			
+			<div class="portfolio print user app" data-cat="web">
+				<div class="portfolio-wrapper">						
+					<img src="img/min/product.png" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Sonor's Design</a>
+							<span class="text-category">Web design</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>				
+			
+			<div class="portfolio print mock app" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<img src="img/min/product.png" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Typography Company</a>
+							<span class="text-category">Business card</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+						
+			<div class="portfolio web mock app" data-cat="app">
+				<div class="portfolio-wrapper">
+					<img src="img/min/product.png" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Weatherette</a>
+							<span class="text-category">APP</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>			
+			
+			<div class="portfolio web mock app" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<img src="img/min/product.png" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">BMF</a>
+							<span class="text-category">Business card</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="portfolio web mock app" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<img src="img/min/product.png" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Techlion</a>
+							<span class="text-category">Business card</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="portfolio web mock app" data-cat="logo">
+				<div class="portfolio-wrapper">			
+					<img src="img/min/product.png" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">KittyPic</a>
+							<span class="text-category">Logo</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																														
+										
+			
+		</div>
+		
+	</div>
+    </section>
     
     <!-- eof APPLICATION -->
 
     <!-- SCRIPTS -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="./js/app.js"></script>
+    <script src="./js/jquery.mixitup.min.js"></script>
     <!-- eof SCRIPTS -->
 </body>
 

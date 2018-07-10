@@ -32,7 +32,6 @@ gulp.task('sass', function() {
     return gulp.src(paths.sassInputFiles)
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer(opt.autopref))
-        .pipe(sourcemaps.write())
         .pipe(gulp.dest(paths.cssOutputFolder))
         .pipe(browserSync.reload({
             stream: true
